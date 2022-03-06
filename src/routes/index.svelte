@@ -1,7 +1,21 @@
 <script lang="ts">
 	import Typewriter from 'svelte-typewriter'
     function playAudio() {
-        var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/vine-boom.mp3")
+
+        var number= Math.floor(Math.random()*6);
+        if (number==0) {
+            var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/among.mp3");
+        } else if (number ==1 ){
+            var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/vine-boom.mp3");
+        } else if (number ==2 ){
+            var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/amongus.mp3");
+        } else if (number ==3 ){
+            var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/bruh.mp3");
+        } else if (number ==4 ){
+            var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/android.mp3");
+        } else if (number ==5 ){
+            var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/boing.mp3");
+        }
         audio.play();
     }
 </script>
