@@ -1,5 +1,9 @@
 <script lang="ts">
 	import Typewriter from 'svelte-typewriter'
+    function playAudio() {
+        var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/vine-boom.mp3")
+        audio.play();
+    }
 </script>
 
 <main>
@@ -10,8 +14,7 @@
       </Typewriter>
 
         <p class="mt-2">Fouth year CIT student at <a target="_blank" rel="noopener noreferrer" href="http://rit.edu">RIT</a></p>
-        <button class="btn btn-success btn-xs mt-3">Currently Looking</button>
-
+        <button on:click={playAudio} class="btn btn-success btn-xs mt-3">Currently Looking</button>
     <div class="mt-10 space-y-2">      
         
       <a target="_blank" rel="noopener noreferrer" href="https://kennethfanresume.s3.amazonaws.com/ResumeKennethFan.pdf">Resume</a><p></p>
