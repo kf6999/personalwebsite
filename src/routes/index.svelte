@@ -14,9 +14,9 @@
 
     <div class="mt-10 space-y-2">      
         
-      <a target="_blank" rel="noopener noreferrer" href="http://your_url_here.html">Resume</a><p></p>
+      <a target="_blank" rel="noopener noreferrer" href="https://kennethfanresume.s3.amazonaws.com/ResumeKennethFan.pdf">Resume</a><p></p>
       <a target="_blank" rel="noopener noreferrer" href="https://github.com/kf6999">GitHub</a><p></p>
-      <p>Email</p>
+      <a href="mailto:kf6999@rit.edu">Email</a>  
 
       </div>
     </div>
