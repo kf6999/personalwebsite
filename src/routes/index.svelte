@@ -2,7 +2,7 @@
 	import Typewriter from 'svelte-typewriter'
     function playAudio() {
 
-        var number= Math.floor(Math.random()*6);
+        var number= Math.floor(Math.random()*7);
         if (number==0) {
             var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/among.mp3");
         } else if (number ==1 ){
@@ -15,6 +15,8 @@
             var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/android.mp3");
         } else if (number ==5 ){
             var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/boing.mp3");
+        } else if (number ==6 ){
+            var audio = new Audio("https://kennethfanresume.s3.amazonaws.com/boi.mp3");
         }
         audio.play();
     }
