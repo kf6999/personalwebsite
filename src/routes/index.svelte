@@ -29,7 +29,7 @@
         <h1 class="text-5xl font-semibold">Kenneth Fan</h1>
       </Typewriter>
 
-        <p class="mt-2">Fouth year CIT student at <a target="_blank" rel="noopener noreferrer" href="http://rit.edu">RIT</a></p>
+        <p class="mt-2">Fourth year CIT student at <a target="_blank" rel="noopener noreferrer" href="http://rit.edu">RIT</a></p>
         <button on:click={playAudio} class="btn btn-success btn-xs mt-3">Currently Looking</button>
     <div class="mt-10 space-y-2">      
         
